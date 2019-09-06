@@ -4,8 +4,7 @@
   "description": "A set of tools to establish TCP tunnels (or TCP reverse tunnels) over WebSocket connections for circumventing the problem of directly connect to hosts behind a strict firewall or without public IP. It also supports WebSocket Secure (wss) connections.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "./scripts/postinst"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "websocket": "<=1.0.28",
@@ -16,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MDSLab/wstun.git"
+    "url": "git+https://github.com/cwi-vvatsos/wstun.git"
   },
   "keywords": [
     "tunnel",
